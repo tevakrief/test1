@@ -6,6 +6,7 @@ pipeline {
         parallel(
           "build": {
             echo 'Build !'
+            echo 'Nouvelle Task'
             
           },
           "ping": {
